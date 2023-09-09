@@ -143,7 +143,7 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
+    -- Theme inspired by the Nord Color Palette
     'shaunsingh/nord.nvim',
     priority = 1000,
     config = function()
