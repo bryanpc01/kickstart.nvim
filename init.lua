@@ -462,9 +462,6 @@ local servers = {
   },
 }
 
--- Setup neovim go configuration
-require('gopls').setup()
-
 -- Setup neovim lua configuration
 require('neodev').setup()
 
