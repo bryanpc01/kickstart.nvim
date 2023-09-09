@@ -448,7 +448,7 @@ end
 --  define the property 'filetypes' to the map in question.
 local servers = {
   -- clangd = {},
-  -- gopls = {},
+  gopls = {},
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
@@ -461,6 +461,9 @@ local servers = {
     },
   },
 }
+
+-- Setup neovim go configuration
+require('gopls').setup()
 
 -- Setup neovim lua configuration
 require('neodev').setup()
